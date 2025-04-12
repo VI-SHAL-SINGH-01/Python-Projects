@@ -1,6 +1,6 @@
-from operator import indexOf
 
-    #remove the word which contain a,e,i,o,u
+
+    #remove the word which contain a,e,i,o,u from the list
 
 a= [ "hello","tries" ,"stand","at","at", "at", "ssb", "true" ,"try"]
 for i in a:
