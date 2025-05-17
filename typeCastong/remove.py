@@ -6,8 +6,6 @@ for i in a:
         if (((j == "a") or (j == "e") or (j == "i") or (j == "o") or (j == "u"))):
             #print(j,end=" ")
             a.remove(i)
-            a.index(
-            break
         else:
             continue
 print(a,end=" ")
