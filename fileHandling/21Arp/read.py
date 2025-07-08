@@ -1,0 +1,5 @@
+d=open(r"D:\hello.html","r")
+# d.write("<h1>hello this is vishal singh , curently i am in rpg</h1>")
+s=d.read(5)
+print(s)
+d.close()

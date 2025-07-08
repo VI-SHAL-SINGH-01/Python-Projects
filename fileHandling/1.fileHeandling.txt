@@ -1,0 +1,24 @@
+Opening Files:
+The open() function is central to file handling, accepting two primary arguments: the file name (or path) and the mode of access.
+
+example :
+      file = open("filename.txt", "r") # Opens 'filename.txt' in read mode
+
+File Access Modes
+
+        "r": (Read): Opens the file for reading. It's the default mode.
+        "w": (Write): Opens the file for writing. If the file exists, its content is overwritten; if not, a new file is created.
+        "a": (Append): Opens the file for appending data to the end. It creates a new file if one doesn't exist.
+        "x": (Create): Creates a new file. If the file already exists, it raises an error.
+        "r+": (Read and Write): Opens the file for both reading and writing.
+        "w+": (Write and Read): Opens the file for both writing and reading. It overwrites the existing content or creates a new file.
+        "a+": (Append and Read): Opens the file for both appending and reading.
+        "t": (Text): Opens the file in text mode (default).
+        "b": (Binary): Opens the file in binary mode.
+
+
+Reading Files
+
+        read(): Reads the entire content of the file as a string.
+        readline(): Reads a single line from the file.
+        readlines(): Reads all lines and returns them as a list of strings.
